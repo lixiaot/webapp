@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "送入科室",
+  "usingComponents": {
+    "e-picker-plus": "/components/e-picker-plus/e-picker-plus",
+    "epickerplus": "/components/e-picker-plus/e-picker-plus"
+  }
+}

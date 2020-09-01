@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/putstorage/putstorage",
+    "pages/department/department",
+    "pages/utensil/utensil",
+    "pages/details/details",
+    "pages/index/index",
+    "pages/search/search"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "华测器具",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#000000"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap25.json"
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "委托单列表",
+  "usingComponents": {
+    "handle": "/components/handle/handle",
+    "calendar": "/components/uni-calendar/uni-calendar"
+  }
+}

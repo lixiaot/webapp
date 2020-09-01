@@ -1,0 +1,48 @@
+{
+	"pages": [
+		{
+			"path": "pages/department/department",
+			"style": {
+				"navigationBarTitleText": "送入科室"
+			} 
+		},
+		{
+			"path": "pages/putstorage/putstorage",
+			"style": {
+				"navigationBarTitleText": "委托单列表"
+			} 
+		},
+		
+		
+		{
+			"path": "pages/utensil/utensil",
+			"style": {
+				"navigationBarTitleText": "器具详情"
+			}
+		},
+		{
+			"path": "pages/details/details",
+			"style": {
+				"navigationBarTitleText": "委托单详情"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "委托单列表"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "委托单搜索"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "华测器具",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#000000"
+	}
+}

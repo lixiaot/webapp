@@ -1,0 +1,400 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container.data-v-1193acb8 {
+  height: 100%;
+}
+.container .head.data-v-1193acb8 {
+  height: 8vh;
+  line-height: 8vh;
+  text-align: center;
+  color: #FFFFFF;
+  background: #83c353;
+  position: relative;
+}
+.container .head .head-left.data-v-1193acb8, .container .head .head-right.data-v-1193acb8 {
+  position: absolute;
+  top: 30rpx;
+  width: 48rpx;
+  height: 48rpx;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  line-height: 50rpx;
+}
+.container .head .head-left image.data-v-1193acb8, .container .head .head-right image.data-v-1193acb8 {
+  width: 28rpx;
+  height: 28rpx;
+}
+.container .head .head-left.data-v-1193acb8 {
+  left: 10%;
+}
+.container .head .head-right.data-v-1193acb8 {
+  right: 10%;
+}
+.container .list1.data-v-1193acb8 {
+  margin: 40rpx auto;
+  width: 630rpx;
+  background: white;
+  box-shadow: 0px 12rpx 28rpx rgba(0, 0, 0, 0.08);
+  border-radius: 12rpx;
+  padding: 30rpx 20rpx;
+}
+.container .list1 .list1-li.data-v-1193acb8 {
+  font-size: 28rpx;
+  height: 52rpx;
+  line-height: 52rpx;
+  color: #595959;
+}
+.container .list1 .list1-li text.data-v-1193acb8 {
+  display: inline-block;
+  width: 200rpx;
+  color: #8C8C8C;
+}
+.container .list1 .dizhi.data-v-1193acb8 {
+  height: auto;
+  line-height: 52rpx;
+}
+.container .list1 .dizhi .wizhi.data-v-1193acb8 {
+  float: left;
+}
+.container .list1 .dizhi .dibox.data-v-1193acb8 {
+  display: inline-block;
+  width: calc(100% - 200rpx);
+}
+.container .listbox .list2.data-v-1193acb8, .container .listbox .list3.data-v-1193acb8 {
+  margin: 20rpx auto;
+  width: 630rpx;
+  height: 336rpx;
+  background: white;
+  box-shadow: 0px 12rpx 28rpx rgba(0, 0, 0, 0.08);
+  border-radius: 12rpx;
+  padding: 0rpx 20rpx 30rpx;
+}
+.container .listbox .list2 .list2-li1.data-v-1193acb8, .container .listbox .list3 .list2-li1.data-v-1193acb8 {
+  font-size: 28rpx;
+  height: 52rpx;
+  line-height: 52rpx;
+  color: #595959;
+}
+.container .listbox .list2 .list2-li1 text.data-v-1193acb8, .container .listbox .list3 .list2-li1 text.data-v-1193acb8 {
+  display: inline-block;
+  width: 200rpx;
+  color: #8C8C8C;
+}
+.container .listbox .list3.data-v-1193acb8 {
+  margin-top: 10rpx;
+  height: 736rpx;
+}
+.container .listbox .listfujian.data-v-1193acb8 {
+  margin: 20rpx auto;
+  width: 630rpx;
+  background: white;
+  box-shadow: 0px 12rpx 28rpx rgba(0, 0, 0, 0.08);
+  border-radius: 12rpx;
+  padding: 0rpx 20rpx 30rpx;
+}
+.container .listbox .listfujian .listfujian-top .listfujian-textarea.data-v-1193acb8 {
+  margin-top: 20rpx;
+  height: 272rpx;
+  padding: 20rpx;
+  background: whitesmoke;
+  opacity: 1;
+  border-radius: 12rpx;
+}
+.container .listbox .listfujian .listfujian-cen text.data-v-1193acb8 {
+  height: 64rpx;
+  margin-right: 20rpx;
+  margin-top: 20rpx;
+  display: inline-block;
+  padding: 0 20rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 64rpx;
+  color: #8c8c8c;
+  background: whitesmoke;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 12rpx;
+}
+.container .listbox .listfujian .listfujian-img.data-v-1193acb8 {
+  margin-top: 20rpx;
+}
+.container .listbox .listfujian .listfujian-img .uni-uploader-body.data-v-1193acb8 {
+  padding: 20rpx 0;
+  overflow: hidden;
+}
+.container .listbox .listfujian .listfujian-img .uni-uploader-body .uni-uploader__file.data-v-1193acb8 {
+  position: relative;
+  width: 160rpx;
+  height: 160rpx;
+  float: left;
+  margin-right: 20rpx;
+}
+.container .listbox .listfujian .listfujian-img .uni-uploader-body .uni-uploader__file .uni-uploader__img.data-v-1193acb8 {
+  width: 160rpx;
+  background: whitesmoke;
+  border-radius: 12rpx;
+  height: 160rpx;
+}
+.container .listbox .listfujian .listfujian-img .uni-uploader-body .uni-uploader__file .iconqingchu.data-v-1193acb8 {
+  position: absolute;
+  top: -20rpx;
+  right: 0rpx;
+  color: #979797;
+}
+.container .listbox .listfujian .listfujian-img .uni-uploader-body .uni-uploader__input-box.data-v-1193acb8 {
+  float: left;
+}
+.container .listbox .listfujian .listfujian-img .uni-uploader-body .uni-uploader__input-box .uni-uploader__input.data-v-1193acb8 {
+  width: 160rpx;
+  background: whitesmoke;
+  border-radius: 12rpx;
+  height: 160rpx;
+  text-align: center;
+  color: #979797;
+}
+.container .listbox .listfujian .listfujian-img .uni-uploader-body .uni-uploader__input-box .uni-uploader__input .icontianjia.data-v-1193acb8 {
+  padding-top: 16rpx;
+  font-size: 40rpx;
+  margin-bottom: 10rpx;
+  display: block;
+}
+.container .listbox .listfujian .listfujian-img .uni-uploader-body .uni-uploader__input-box .uni-uploader__input text.data-v-1193acb8 {
+  font-size: 24rpx;
+}
+.container .listbox .listfujian .uni-btn-v.data-v-1193acb8 {
+  padding-bottom: 30rpx;
+}
+.container .listbox .listfujian .uni-btn-v button.data-v-1193acb8 {
+  background: #75c23a;
+  border-radius: 8rpx;
+  height: 80rpx;
+  width: 368rpx;
+  color: #FFFFFF;
+  margin-top: 40rpx;
+}
+.container .listbox .listfiles.data-v-1193acb8 {
+  margin: 20rpx auto 100rpx;
+  width: 630rpx;
+  background: white;
+  box-shadow: 0px 12rpx 28rpx rgba(0, 0, 0, 0.08);
+  border-radius: 12rpx;
+  padding: 0rpx 20rpx 30rpx;
+}
+.container .listbox .listfiles .listf .listfi.data-v-1193acb8 {
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #404040;
+  font-size: 28rpx;
+  position: relative;
+}
+.container .listbox .listfiles .listf .listfi .iconxiazai.data-v-1193acb8 {
+  position: absolute;
+  top: 0rpx;
+  right: 0rpx;
+  color: #979797;
+}
+page.data-v-1193acb8 {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.tabs.data-v-1193acb8 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.scroll-h.data-v-1193acb8 {
+  width: 750rpx;
+  height: 6vh;
+  margin-left: 25rpx;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  white-space: nowrap;
+  /* flex-wrap: nowrap; */
+  /* border-color: #cccccc;
+		border-bottom-style: solid;
+		border-bottom-width: 1px; */
+}
+.line-h.data-v-1193acb8 {
+  height: 1rpx;
+  background-color: #cccccc;
+}
+.uni-tab-item.data-v-1193acb8 {
+  display: inline-block;
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  padding-left: 25rpx;
+  padding-right: 25rpx;
+  position: relative;
+}
+.uni-tab-item .bian.data-v-1193acb8 {
+  width: 30%;
+  height: 6rpx;
+  background-color: #83C353;
+  border-radius: 2rpx;
+  position: absolute;
+  left: 50%;
+  bottom: 6rpx;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.uni-tab-item-title.data-v-1193acb8 {
+  color: #404040;
+  font-size: 28rpx;
+  height: 6vh;
+  line-height: 6vh;
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  white-space: nowrap;
+}
+.uni-tab-item-title-active.data-v-1193acb8 {
+  color: #83C353;
+}
+.swiper-box.data-v-1193acb8 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 84vh;
+}
+.swiper-item.data-v-1193acb8 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.scroll-v.data-v-1193acb8 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  width: 750rpx;
+}
+.update-tips.data-v-1193acb8 {
+  position: absolute;
+  left: 0;
+  top: 41px;
+  right: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #FDDD9B;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  text-align: center;
+}
+.update-tips-text.data-v-1193acb8 {
+  font-size: 14px;
+  color: #ffffff;
+}
+.refresh.data-v-1193acb8 {
+  width: 750rpx;
+  height: 64px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.refresh-view.data-v-1193acb8 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.refresh-icon.data-v-1193acb8 {
+  width: 30px;
+  height: 30px;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transform-origin: 15px 15px;
+          transform-origin: 15px 15px;
+}
+.refresh-icon-active.data-v-1193acb8 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.loading-icon.data-v-1193acb8 {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  color: #999999;
+}
+.loading-text.data-v-1193acb8 {
+  margin-left: 2px;
+  font-size: 16px;
+  color: #999999;
+}
+.loading-more.data-v-1193acb8 {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.loading-more-text.data-v-1193acb8 {
+  font-size: 28rpx;
+  color: #999;
+}
+

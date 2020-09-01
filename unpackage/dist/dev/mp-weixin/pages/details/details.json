@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "委托单详情",
+  "usingComponents": {
+    "handle": "/components/handle/handle",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "calendar": "/components/uni-calendar/uni-calendar",
+    "uni-popup-dialog": "/components/uni-popup/uni-popup-dialog"
+  }
+}
